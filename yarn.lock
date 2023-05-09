@@ -3002,25 +3002,7 @@
     "tar" "^6.1.11"
     "unique-filename" "^2.0.0"
 
-"cacache@^17.0.0":
-  "integrity" "sha512-hXpFU+Z3AfVmNuiLve1qxWHMq0RSIt5gjCKAHi/M6DktwFwDdAXAtunl1i4WSKaaVcU9IsRvXFg42jTHigcC6Q=="
-  "resolved" "https://registry.npmjs.org/cacache/-/cacache-17.1.0.tgz"
-  "version" "17.1.0"
-  dependencies:
-    "@npmcli/fs" "^3.1.0"
-    "fs-minipass" "^3.0.0"
-    "glob" "^10.2.2"
-    "lru-cache" "^7.7.1"
-    "minipass" "^5.0.0"
-    "minipass-collect" "^1.0.2"
-    "minipass-flush" "^1.0.5"
-    "minipass-pipeline" "^1.2.4"
-    "p-map" "^4.0.0"
-    "ssri" "^10.0.0"
-    "tar" "^6.1.11"
-    "unique-filename" "^3.0.0"
-
-"cacache@17.0.6":
+"cacache@^17.0.0", "cacache@17.0.6":
   "integrity" "sha512-ixcYmEBExFa/+ajIPjcwypxL97CjJyOsH9A/W+4qgEPIpJvKlC+HmVY8nkIck6n3PwUTdgq9c489niJGwl+5Cw=="
   "resolved" "https://registry.npmjs.org/cacache/-/cacache-17.0.6.tgz"
   "version" "17.0.6"
@@ -3363,16 +3345,7 @@
     "postcss" "^8.3.7"
     "pretty-bytes" "^5.3.0"
 
-"cross-spawn@^7.0.0":
-  "integrity" "sha512-iRDPJKUPVEND7dHPO8rkbOnPpyDygcDFtWjpeWNCgy8WP2rXcxXL8TskReQl6OrB2G7+UJrags1q15Fudc7G6w=="
-  "resolved" "https://registry.npmjs.org/cross-spawn/-/cross-spawn-7.0.3.tgz"
-  "version" "7.0.3"
-  dependencies:
-    "path-key" "^3.1.0"
-    "shebang-command" "^2.0.0"
-    "which" "^2.0.1"
-
-"cross-spawn@^7.0.3":
+"cross-spawn@^7.0.0", "cross-spawn@^7.0.3":
   "integrity" "sha512-iRDPJKUPVEND7dHPO8rkbOnPpyDygcDFtWjpeWNCgy8WP2rXcxXL8TskReQl6OrB2G7+UJrags1q15Fudc7G6w=="
   "resolved" "https://registry.npmjs.org/cross-spawn/-/cross-spawn-7.0.3.tgz"
   "version" "7.0.3"
@@ -3433,14 +3406,7 @@
   dependencies:
     "ms" "^2.1.1"
 
-"debug@^4.1.0", "debug@^4.1.1", "debug@^4.3.3", "debug@~4.3.1", "debug@~4.3.2", "debug@4":
-  "integrity" "sha512-/zxw5+vh1Tfv+4Qn7a5nsbcJKPaSvCDhojn6FEl9vupwK2VCSDtEiEtqr8DFtzYFOdz63LBkxec7DYuc2jon6Q=="
-  "resolved" "https://registry.npmjs.org/debug/-/debug-4.3.3.tgz"
-  "version" "4.3.3"
-  dependencies:
-    "ms" "2.1.2"
-
-"debug@^4.3.4":
+"debug@^4.1.0", "debug@^4.1.1", "debug@^4.3.3", "debug@^4.3.4", "debug@~4.3.1", "debug@~4.3.2", "debug@4":
   "integrity" "sha512-PRWFHuSU3eDtQJPvnNY7Jcket1j0t5OuOsFzPPzsekD52Zl8qUfFIPEiswXqIvHWGVHOgX+7G/vCNNhehwxfkQ=="
   "resolved" "https://registry.npmjs.org/debug/-/debug-4.3.4.tgz"
   "version" "4.3.4"
@@ -4000,7 +3966,14 @@
     "jsonfile" "^4.0.0"
     "universalify" "^0.1.0"
 
-"fs-minipass@^2.0.0", "fs-minipass@^2.1.0":
+"fs-minipass@^2.0.0":
+  "integrity" "sha512-V/JgOLFCS+R6Vcq0slCuaeWEdNC3ouDlJMNIsacH2VtALiu9mV4LPrHc5cDl8k5aw6J8jwgWWpiTo5RYhmIzvg=="
+  "resolved" "https://registry.npmjs.org/fs-minipass/-/fs-minipass-2.1.0.tgz"
+  "version" "2.1.0"
+  dependencies:
+    "minipass" "^3.0.0"
+
+"fs-minipass@^2.1.0":
   "integrity" "sha512-V/JgOLFCS+R6Vcq0slCuaeWEdNC3ouDlJMNIsacH2VtALiu9mV4LPrHc5cDl8k5aw6J8jwgWWpiTo5RYhmIzvg=="
   "resolved" "https://registry.npmjs.org/fs-minipass/-/fs-minipass-2.1.0.tgz"
   "version" "2.1.0"
@@ -4102,7 +4075,7 @@
     "minipass" "^5.0.0"
     "path-scurry" "^1.7.0"
 
-"glob@^7.1.3", "glob@^7.1.4", "glob@^7.1.7":
+"glob@^7.1.3":
   "integrity" "sha512-lmLf6gtyrPq8tTjSmrO94wBeQbFR3HbLHbuyD69wuyQkImp2hWqMGB47OX65FBkPffO641IP9jWa1z4ivqG26Q=="
   "resolved" "https://registry.npmjs.org/glob/-/glob-7.2.0.tgz"
   "version" "7.2.0"
@@ -4114,18 +4087,31 @@
     "once" "^1.3.0"
     "path-is-absolute" "^1.0.0"
 
-"glob@^8.0.1":
-  "integrity" "sha512-r8hpEjiQEYlF2QU0df3dS+nxxSIreXQS1qRhMJM0Q5NDdR386C7jb7Hwwod8Fgiuex+k0GFjgft18yvxm5XoCQ=="
-  "resolved" "https://registry.npmjs.org/glob/-/glob-8.1.0.tgz"
-  "version" "8.1.0"
+"glob@^7.1.4":
+  "integrity" "sha512-lmLf6gtyrPq8tTjSmrO94wBeQbFR3HbLHbuyD69wuyQkImp2hWqMGB47OX65FBkPffO641IP9jWa1z4ivqG26Q=="
+  "resolved" "https://registry.npmjs.org/glob/-/glob-7.2.0.tgz"
+  "version" "7.2.0"
   dependencies:
     "fs.realpath" "^1.0.0"
     "inflight" "^1.0.4"
     "inherits" "2"
-    "minimatch" "^5.0.1"
+    "minimatch" "^3.0.4"
     "once" "^1.3.0"
+    "path-is-absolute" "^1.0.0"
 
-"glob@8.1.0":
+"glob@^7.1.7":
+  "integrity" "sha512-lmLf6gtyrPq8tTjSmrO94wBeQbFR3HbLHbuyD69wuyQkImp2hWqMGB47OX65FBkPffO641IP9jWa1z4ivqG26Q=="
+  "resolved" "https://registry.npmjs.org/glob/-/glob-7.2.0.tgz"
+  "version" "7.2.0"
+  dependencies:
+    "fs.realpath" "^1.0.0"
+    "inflight" "^1.0.4"
+    "inherits" "2"
+    "minimatch" "^3.0.4"
+    "once" "^1.3.0"
+    "path-is-absolute" "^1.0.0"
+
+"glob@^8.0.1", "glob@8.1.0":
   "integrity" "sha512-r8hpEjiQEYlF2QU0df3dS+nxxSIreXQS1qRhMJM0Q5NDdR386C7jb7Hwwod8Fgiuex+k0GFjgft18yvxm5XoCQ=="
   "resolved" "https://registry.npmjs.org/glob/-/glob-8.1.0.tgz"
   "version" "8.1.0"
@@ -5220,7 +5206,12 @@
   dependencies:
     "minimist" "^1.2.6"
 
-"mkdirp@^1.0.3", "mkdirp@^1.0.4":
+"mkdirp@^1.0.3":
+  "integrity" "sha512-vVqVZQyf3WLx2Shd0qJ9xuvqgAyKPLAiqITEtqW0oIUjzo3PePDd6fW9iFz30ef7Ysp/oiWqbhszeGWW2T6Gzw=="
+  "resolved" "https://registry.npmjs.org/mkdirp/-/mkdirp-1.0.4.tgz"
+  "version" "1.0.4"
+
+"mkdirp@^1.0.4":
   "integrity" "sha512-vVqVZQyf3WLx2Shd0qJ9xuvqgAyKPLAiqITEtqW0oIUjzo3PePDd6fW9iFz30ef7Ysp/oiWqbhszeGWW2T6Gzw=="
   "resolved" "https://registry.npmjs.org/mkdirp/-/mkdirp-1.0.4.tgz"
   "version" "1.0.4"
@@ -6195,17 +6186,10 @@
   "resolved" "https://registry.npmjs.org/semver/-/semver-6.3.0.tgz"
   "version" "6.3.0"
 
-"semver@^7.0.0", "semver@^7.1.1", "semver@^7.3.5", "semver@7.4.0":
+"semver@^7.0.0", "semver@^7.1.1", "semver@^7.3.5", "semver@^7.3.8", "semver@7.4.0":
   "integrity" "sha512-RgOxM8Mw+7Zus0+zcLEUn8+JfoLpj/huFTItQy2hsM4khuC1HYRDp0cU482Ewn/Fcy6bCjufD8vAj7voC66KQw=="
   "resolved" "https://registry.npmjs.org/semver/-/semver-7.4.0.tgz"
   "version" "7.4.0"
-  dependencies:
-    "lru-cache" "^6.0.0"
-
-"semver@^7.3.8":
-  "integrity" "sha512-+XC0AD/R7Q2mPSRuy2Id0+CGTZ98+8f+KvwirxOKIEyid+XSx6HbC63p+O4IndTHuX5Z+JxQ0TghCkO5Cg/2HA=="
-  "resolved" "https://registry.npmjs.org/semver/-/semver-7.5.0.tgz"
-  "version" "7.5.0"
   dependencies:
     "lru-cache" "^6.0.0"
 
@@ -6655,17 +6639,7 @@
     "serialize-javascript" "^6.0.1"
     "terser" "^5.16.8"
 
-"terser@^5.16.8":
-  "integrity" "sha512-1D1aGbOF1Mnayq5PvfMc0amAR1y5Z1nrZaGCvI5xsdEfZEVte8okonk02OiaK5fw5hG1GWuuVsakOnpZW8y25A=="
-  "resolved" "https://registry.npmjs.org/terser/-/terser-5.17.2.tgz"
-  "version" "5.17.2"
-  dependencies:
-    "@jridgewell/source-map" "^0.3.2"
-    "acorn" "^8.5.0"
-    "commander" "^2.20.0"
-    "source-map-support" "~0.5.20"
-
-"terser@^5.4.0", "terser@5.17.1":
+"terser@^5.16.8", "terser@^5.4.0", "terser@5.17.1":
   "integrity" "sha512-hVl35zClmpisy6oaoKALOpS0rDYLxRFLHhRuDlEGTKey9qHjS1w9GMORjuwIMt70Wan4lwsLYyWDVnWgF+KUEw=="
   "resolved" "https://registry.npmjs.org/terser/-/terser-5.17.1.tgz"
   "version" "5.17.1"
