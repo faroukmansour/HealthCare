@@ -1,7 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 import { ActivatedRoute, Router } from '@angular/router';
-import { log } from 'console';
 import { ToastrService } from 'ngx-toastr';
 import { AppointmentService } from 'src/app/shared/appointment.service';
 import { Appointment } from 'src/models/Appointment';
